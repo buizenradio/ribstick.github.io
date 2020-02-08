@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>Dungeons & Dragons</title>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<head>
+<script>
+
+
+
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)-1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "" + localStorage.clickcount + " time(s).";
+  } else {
+    document.getElementById("result").innerHTML = "";
+  }
+}
+</script>
+</head>
+<body>
+</br>
+<p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+<p></p>
+<p></p>
+
+</body>
+</html>
