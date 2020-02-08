@@ -1,4 +1,4 @@
-AuthUserFile /ribstick.github.io/prive/.htpasswd
+AuthUserFile /ribstick.github.io/documenten/amortuusdocumenten/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Beveiligde pagina"
 AuthType Basic
