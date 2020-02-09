@@ -1,5 +1,7 @@
-AuthName "This site is protected with a password"
+AuthUserFile usr/www/ribstick.github.io/prive/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Geheime Pagina"
 AuthType Basic
-AuthUserFile /ribstick.github.io/prive/.htpasswd
-AuthGroupFile /dev/null 
+<Limit GET POST>
 require valid-user
+</Limit> 
