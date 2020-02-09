@@ -1,5 +1,5 @@
-AuthUserFile /www/ribstick.github.io/prive/.htpasswd
-AuthGroupFile /dev/null
+AuthUserFile /ribstick.github.io/prive/.htpasswd
+
 AuthName "Geheime Pagina"
 AuthType Basic
 <Limit GET POST>
