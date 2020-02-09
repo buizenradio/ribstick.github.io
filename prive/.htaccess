@@ -2,4 +2,5 @@ AuthUserFile /ribstick.github.io/prive/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Login"
 AuthType Basic
-require user Amortuus
+require Amortuus
+
