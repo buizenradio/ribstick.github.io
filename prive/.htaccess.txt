@@ -1,5 +1,3 @@
-
-
 AuthName "This site is protected with a password"
 AuthType Basic
 AuthUserFile /prive/.htpasswd
