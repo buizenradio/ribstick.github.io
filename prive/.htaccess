@@ -1,4 +1,4 @@
-AuthUserFile /ribstick.github.io/prive/.htpasswd
+AuthUserFile /prive/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Geheime Pagina"
 AuthType Basic
