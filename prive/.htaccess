@@ -3,3 +3,4 @@ AuthGroupFile /dev/null
 AuthName "Login"
 AuthType Basic
 require user Amortuus
+
