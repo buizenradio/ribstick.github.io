@@ -1,7 +1,8 @@
-AuthUserFile /ribstick.github.io/prive/.htpasswd
+AuthUserFile /prive/.htpasswd
 
 AuthName "Geheime Pagina"
 AuthType Basic
 <Limit GET POST>
 require user Amortuus
 </Limit> 
+
