@@ -4,5 +4,5 @@ AuthUserFile /github.com/Ribstick/ribstick.github.io/tree/master/prive
 AuthName "Geheime Pagina"
 AuthType Basic
 <Limit GET POST>
-require valid-user
+require user Amortuus
 </Limit> 
